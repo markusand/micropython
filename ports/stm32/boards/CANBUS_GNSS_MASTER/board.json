@@ -1,0 +1,15 @@
+{
+  "deploy": [
+    "../deploy.md"
+  ],
+  "docs": "",
+  "features": [],
+  "images": [
+    "4382-09.jpg"
+  ],
+  "mcu": "stm32f7",
+  "product": "Canbus GNSS Master",
+  "thumbnail": "",
+  "url": "https://www.ardusimple.com/product/canbus-gnss-master/",
+  "vendor": "Ardusimple"
+}

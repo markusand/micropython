@@ -1,0 +1,19 @@
+MCU_SERIES = f7
+CMSIS_MCU = STM32F745xx
+AF_FILE = boards/stm32f745_af.csv
+
+# LD_FILES = boards/stm32f745.ld boards/common_basic.ld
+LD_FILES = boards/stm32f745.ld boards/common_ifs.ld
+TEXT0_ADDR = 0x08000000
+TEXT1_ADDR = 0x08020000
+
+# MicroPython settings
+MICROPY_VFS_FAT = 1
+MICROPY_VFS_LFS1 = 1
+MICROPY_VFS_LFS2 = 1
+
+MICROPY_PY_LWIP = 1
+MICROPY_PY_SSL = 1
+MICROPY_SSL_MBEDTLS = 1
+
+# MODULE_ULAB_ENABLED = 1
